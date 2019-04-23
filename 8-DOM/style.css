@@ -1,6 +1,15 @@
-.my-div {
-background-color: blue;
-width: 100px;
-height: 100px;
-display: inline-block;
+.table {
+    display: table;
+}
+
+.table .row {
+    display: table-row;
+}
+
+.table .row .cell {
+    display: table-cell;
+}
+
+.table {
+    margin: auto;
 }
