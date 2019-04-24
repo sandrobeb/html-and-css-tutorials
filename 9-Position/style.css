@@ -1,22 +1,28 @@
-.badge {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: gray;
-    margin-bottom: 30px;
-    border-radius: 5px;
+.message {
+    position: absolute;
+    top: 30px;
+    right:30px;
+    width: 430px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.label {
+.message a {
     position: absolute;
-    background-color: red;
-    color:white;
-    height: 20px;
-    right: 0px;
-    top: 0px;
-    transform: translate(50%, -50%);
-    border-radius: 40px;
-    text-align: center;
-    padding: 2px 8px;
-    border: 1px solid white; 
+    top: 20px;
+    right: 20px;
+    text-decoration: none;
+}
+
+.message p {
+    width: 400px;
+    display: inline-block;
+    color: gray;
+    margin: -30px 0 0 0;
+}
+
+.message h1 {
+    position: relative;
+top: -20px;
 }
