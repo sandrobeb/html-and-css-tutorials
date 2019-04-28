@@ -4,15 +4,15 @@ main {
 }
 
 .row div {
-    height: 100px;
     background-color: blue;
-    margin-bottom: 20px;
 }
 
 .col-1,
 .col-2,
 .col-3 {
     margin-right: 20px;
+    margin-bottom: 20px;
+    height: 100px;
 }
 
 .col-3 {
@@ -35,4 +35,13 @@ main {
 
 .row div:last-child {
     margin-right: 0;
+}
+
+.last {
+    height: 220px;
+}
+
+.next {
+    position: relative;
+    top: -120px;
 }
