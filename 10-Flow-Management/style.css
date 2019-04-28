@@ -14,7 +14,7 @@ header, .col-1, .col-2, .col-3, footer {
     margin-bottom: 20px;
 }
 
-header, .col-1, .col-2, footer p {
+header, .col-1, .col-2  , footer p {
     color: white;
     font-size: 30px;
  }
@@ -34,23 +34,25 @@ header, .col-1, .col-2, footer p {
 footer {
     width: 100%;
     position: relative;
-    top: 110px;
+    top: -20px;
 }
 
 .col-1 {
     float: left;
 }
 
-.col-2 {
+.col-3 {
     float: right;
+    position: relative;
+    top: -110px;
 }
 
-.col-3 {
+.col-2 {
     position: relative;
-    bottom: -120px;
+    top: -10px;
     margin: auto;
 }
 
 .col-1, .col-2, .col-3 {
-    width: 240px;
+    width: 153px;
 }
