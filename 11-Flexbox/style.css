@@ -1,25 +1,41 @@
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin: auto;
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   margin: auto;
 }
 
 .row {
-    display: flex;
+   display: flex;
 }
-
+.coll{
+   display: flex;
+   flex-direction:column;
+   min-height: 50px;
+   background: blue;
+}
 .cell {
-    min-height: 50px;
-    background: blue;
-    margin: 10px;
+   height: 50px;
+   background: blue;
+   margin: 10px;
 }
 
-.header, .col-1, .col-2, .col-3, .footer {
-    flex-grow: 1;
+.col-3 {
+   flex-grow: 1;
+}
+.col{
+   display: flex;
+   flex-direction: column;
+}
+
+.col-1 {
+   flex-grow: 1;
 }
 
 .col-2 {
-    width: 33.5%;
+    width: 64.5%;
 }
 
+.wd {
+    width: 570px;
+}
