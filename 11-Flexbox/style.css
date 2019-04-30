@@ -15,11 +15,6 @@
     margin: 20px;
 }
 
-.header, .col-1, .col-2, .footer {
+.header, .col-1, .col-2, .col-3, .footer {
     flex-grow: 1;
-}
-
-.col-3 {
-    width: 60%;
-    margin: 10px auto;
 }
