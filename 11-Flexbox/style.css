@@ -12,9 +12,14 @@
 .cell {
     min-height: 50px;
     background: blue;
-    margin: 20px;
+    margin: 10px;
 }
 
 .header, .col-1, .col-2, .col-3, .footer {
     flex-grow: 1;
 }
+
+.col-2 {
+    width: 50%;
+}
+
