@@ -9,7 +9,7 @@
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .bottom {
@@ -18,7 +18,7 @@ footer {
 
 .bottom .wrap {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 36px;
 }
 
 .wrap {
@@ -30,10 +30,16 @@ footer {
 .wrap div {
     width: 270px;
     margin-right: 30px;
+    padding-bottom: 14px;
 }
 
 .wrap div:last-child {
     margin-right: none;
+}
+
+.top .wrap div{
+    margin-top: 24.5px;
+    margin-bottom: 29px;
 }
 
 .bottom .wrap p {
@@ -41,6 +47,7 @@ footer {
     font-family: 'PT Sans';
     font-size: 15px;
     line-height: 24px;
+    margin-top: 19px;
 }
 
 .bottom .wrap a {
@@ -59,7 +66,7 @@ footer {
     margin-top: 100px;
     margin-bottom: 37px;
     font-weight: 100;
-    letter-spacing: 3px;
+    letter-spacing: 4.5px;
 }
 
 .top .wrap h3::after {
@@ -68,34 +75,38 @@ footer {
     height: 3px;
     background-color: #1ABC9C;
     display: block;
-    text-transform: uppercase;
 }
 
-.wrap ul li {
+.wrap div ul li {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px;
+    padding-bottom: 11px;
 }
 
-.wrap ul li::after {
+.wrap div ul li::after {
     content: "";
-    height: 3px;
+    height: 1px;
     width: 100%;
     display: block;
     background-color: #343A47;
     margin: 10px 0 10px;
 }
 
-.wrap ul li:last-child::after {
+.wrap div ul li:last-child::after {
     display: none;
 }
 
-.wrap ul li:first-child::after {
+.wrap div ul li:first-child::after {
 display: block;
 }
 
-.wrap ul li a {
+.wrapper ul li:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.wrap div ul li a {
     font-family: 'PT Sans';
     font-size: 16px;
     color: #ECF0F1;
@@ -113,20 +124,20 @@ display: block;
     color: #A1B1BC;
     text-decoration: none;
     line-height: 24px;
+    padding-bottom: 3px;
 }
 
 .wrap .notes {
     font-family: 'PT Sans';
     font-size: 14px;
-    line-height: 24px;
+    line-height: 47px;
     color: #A1B1BC;
 }
 
 .wrap .notes p {
-    margin-top: 17px;
-    margin-bottom: 20px;
+    margin-top: -18px;
     font-family: 'PT Sans';
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
 }
 
