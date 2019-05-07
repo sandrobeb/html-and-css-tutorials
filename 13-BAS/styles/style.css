@@ -3,9 +3,6 @@
     padding: 0;
 }
 
-body {
-    background: url(../img/1.png);
-}
 
 .first {
     background-color: #140E0E;
@@ -26,6 +23,7 @@ body {
 .text {
     position: relative;
     top: 50%;
+    transform: translateY(100%);
 }
 
 p {
@@ -34,4 +32,18 @@ p {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Lobster';
+}
+
+.img img {
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+.blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    filter: blur(16px);
+    transform: scale(1.6);
 }
